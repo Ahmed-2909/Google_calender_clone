@@ -50,10 +50,17 @@ const Calendar = () => {
         // alert('Clicked on: ' + info.dateStr);
         // alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
         let x = info.jsEvent.pageX;
-        if ((x - 500) <= 0) {
-            x = x + 670;
-
+        if ((x - 700) <= 0) {
+            if ((x - 500) <= 0){
+                x = x + 670;
+            }
+            else{
+                x = x + 170;
+                console.log(x);
+            }
+            
         }
+
         setCoordinates([x, info.jsEvent.pageY])
 
         setFormShow(true);
