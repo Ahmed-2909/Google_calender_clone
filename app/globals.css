@@ -26,6 +26,18 @@
     )
     rgb(var(--background-start-rgb));
 } */
+#Checkbox1 {
+  accent-color: red;
+}
+#Checkbox2 {
+  accent-color: yellow;
+}
+#Checkbox3 {
+  accent-color: hotpink;
+}
+#Checkbox4 {
+  accent-color: green;
+}
 .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
   min-height: 0;
 }
@@ -99,14 +111,14 @@
     flex-direction: column;
   }
   .fc .fc-col-header-cell-cushion {
-  padding: 0px;
-  margin: 0px;
-  overflow-x: scroll;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: scroll;
+  }
 }
-}
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width: 1200px) {
   .fc .fc-col-header-cell-cushion {
-  padding: 30px 10px 30px 10px;
-  margin: 4px;
-}
+    padding: 30px 10px 30px 10px;
+    margin: 4px;
+  }
 }
